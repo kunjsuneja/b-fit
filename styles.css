@@ -1,0 +1,67 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+body{
+	background: url(https://static.vecteezy.com/system/resources/previews/002/263/117/non_2x/banner-of-two-metal-gym-dumbbells-with-black-discs-on-white-background-with-soft-shadows-3d-render-free-photo.jpg) no-repeat center center fixed   ;
+	background-size: cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+/* Exercise Styles */
+.exercise {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.exercise h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.exercise img {
+    max-width: 100%;
+    height: 20rem;
+    display: block;
+    margin: 10px auto;
+}
+
+.exercise p {
+    color: #666;
+}
+
+ul{
+    list-style-type: none;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
