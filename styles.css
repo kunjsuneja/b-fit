@@ -60,9 +60,7 @@ ul{
 }
 /* Responsive Styles */
 @media (max-width: 768px) {
-	h1{
-        size:80px;
-	}
+
     .container {
         max-width: 100%;
     }
