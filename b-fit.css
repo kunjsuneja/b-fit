@@ -18,7 +18,7 @@ body{
     }
 h1 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 130px;
+    font-size: 8.125rem;
     color: rgb(32, 121, 255);
     text-align: center;
     /* justify-content: center; */
@@ -74,3 +74,4 @@ img:hover{
     display: block; /* Show the placeholder when navbar becomes sticky */
     height: 56px; /* Adjust the height to match your navbar height */
 }
+
